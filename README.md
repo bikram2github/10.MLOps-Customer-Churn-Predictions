@@ -45,7 +45,6 @@ This project demonstrates how to build a **scalable and reproducible ML system**
 - Accuracy: **~81%**
 - Models Used:
   - Random Forest
-  - XGBoost
 - Evaluation using standard classification metrics
 
 ---
