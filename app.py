@@ -43,7 +43,7 @@ with st.form("churn_form"):
                     timeout=5
                 )
         except requests.exceptions.RequestException:
-            st.error("Backend not reachable")
+            st.error("Backend not reachable. Please contact with Bikram")
             st.stop()
 
         if response.status_code != 200:
