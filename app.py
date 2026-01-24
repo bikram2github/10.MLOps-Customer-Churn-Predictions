@@ -72,4 +72,4 @@ with st.form("churn_form"):
             st.warning("⚠️ The customer has a moderate chance of leaving.")
         else:
             st.success("✅ The customer is likely to stay.")
-            st.balloons()
+
